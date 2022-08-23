@@ -31,7 +31,7 @@ function postemail($email,$name,$title,$city){
       'title' => $title,
       'content' => $content,
     );
-    return Curl_Post('http://file.qingyunjian.cn/email/mail.php', $post_data);
+    return Curl_Post('http://域名或ip地址/mail.php', $post_data);
 }
 
 // 词霸 每日句子
