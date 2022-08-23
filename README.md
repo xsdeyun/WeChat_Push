@@ -7,8 +7,11 @@ https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
 
 ## 填写配置信息
 ![](https://s1.328888.xyz/2022/08/23/byq1y.png)
+
 ![](https://s1.328888.xyz/2022/08/23/bzjAk.png)
+
 将从微信公众平台获取到的Token、appid、secret、template_id填写到代码里面中。
+
 在代码中填写对应的日期
 ``` 
 $appid="";   // 公众号 appid
@@ -22,18 +25,28 @@ $city="成都";// 天气城市
 
 ## 模板代码
 {{date.DATA}}
+
 {{pipi.DATA}}
 
 城市：{{city.DATA}}
+
 天气：{{weather.DATA}}
+
 最低气温: {{min_temperature.DATA}}
+
 最高气温: {{max_temperature.DATA}}
+
 今日建议：{{tips.DATA}}
+
 今天是我们恋爱的第{{love_day.DATA}}天
+
 距离小宝生日还有{{birthday1.DATA}}天
+
 距离我的生日还有{{birthday2.DATA}}天
 
+
 {{note_en.DATA}}
+
 {{note_ch.DATA}}
 
 ## 定时发送
